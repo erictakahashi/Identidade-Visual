@@ -59,6 +59,60 @@ td {
 .font000000 {
   color: #000000; }
 
+.phase-feature {
+  border: 1px solid gray;
+  padding: 10px; }
+  .phase-feature h5 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 20px; }
+  .phase-feature ul {
+    margin: 0;
+    padding: 0; }
+  .phase-feature li {
+    margin-top: 3px;
+    margin-bottom: 7px;
+    margin-left: 14px;
+    font-size: 11.776px; }
+
+form {
+  width: 95%;
+  margin-top: 10px; }
+  form p {
+    margin: 0; }
+  form input {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 0;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-color: gray;
+    border-radius: 0;
+    padding: 6px;
+    font-size: 12px;
+    color: #ed1c24; }
+  form input[type="submit"] {
+    float: right;
+    width: 30%;
+    border: 0;
+    background: #ed1c24;
+    font-size: 10.196px;
+    color: white; }
+  form label {
+    margin: 0;
+    padding: 6px;
+    font-size: 12px;
+    color: #ed1c24;
+    font-weight: normal; }
+  form textarea {
+    height: 80px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    border-radius: 0;
+    font-size: 12px;
+    color: #ed1c24; }
+
 .site-header {
   display: inline-block;
   width: 100%;
@@ -290,6 +344,9 @@ td {
 .featuredBox {
   padding: 15px; }
 
+button:hover {
+  background-color: #ebebeb; }
+
 .team-nome-new {
   position: relative;
   width: 100%;
@@ -373,57 +430,3 @@ td {
 .modal-content-inf {
   bottom: 0;
   height: 20px; }
-
-.phase-feature {
-  border: 1px solid gray;
-  padding: 10px; }
-  .phase-feature h5 {
-    margin-top: 0;
-    margin-bottom: 10px;
-    font-size: 20px; }
-  .phase-feature ul {
-    margin: 0;
-    padding: 0; }
-  .phase-feature li {
-    margin-top: 3px;
-    margin-bottom: 7px;
-    margin-left: 14px;
-    font-size: 11.776px; }
-
-form {
-  width: 95%;
-  margin-top: 10px; }
-  form p {
-    margin: 0; }
-  form input {
-    width: 100%;
-    margin-bottom: 20px;
-    border: 0;
-    border-bottom: 1px;
-    border-bottom-style: solid;
-    border-color: gray;
-    border-radius: 0;
-    padding: 6px;
-    font-size: 12px;
-    color: #ed1c24; }
-  form input[type="submit"] {
-    float: right;
-    width: 30%;
-    border: 0;
-    background: #ed1c24;
-    font-size: 10.196px;
-    color: white; }
-  form label {
-    margin: 0;
-    padding: 6px;
-    font-size: 12px;
-    color: #ed1c24;
-    font-weight: normal; }
-  form textarea {
-    height: 80px;
-    width: 100%;
-    margin-bottom: 20px;
-    border: 1px solid gray;
-    border-radius: 0;
-    font-size: 12px;
-    color: #ed1c24; }
