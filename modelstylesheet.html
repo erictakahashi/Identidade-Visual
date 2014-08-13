@@ -186,7 +186,7 @@
 			<section>
 				<h2 class="sectionTitle">Título das Páginas</h2>
 
-				<ul>
+				<ul class="modelList">
 					<li>
 						<h3>Título #000000</h3>
 						<section class="pagina-template">
@@ -246,7 +246,7 @@
 			<section>
 				<h2 class="sectionTitle">Caixas de Destaque</h2>
 
-				<ul>
+				<ul class="modelList">
 					<li>
 						<h3>Background #4D4D4D</h3>
 						<div class="row">
@@ -265,6 +265,68 @@
 								<div class="featuredBox backgroundED1C24 fontFFFFFF">
 									<p>Caixa de Destaque</p>
 								</div><!-- fim div.featuredBox -->
+							</div><!-- fim div.col-sm-3 -->
+						</div><!-- fim div.row -->
+					</li><!-- fim li -->
+
+					<li>
+						<h3>Box de Equipe</h3>
+						<div class="row">
+							<div class="col-sm-3">
+								<button class="team-nome-new" data-toggle="modal" data-target="#teamBox">
+									<h3 class="team-nome-new-h3">
+										Nome<br>
+										<span class="team-nome-new-h3-span font-color-red">Sobrenome</span>
+									</h3>
+								</button>
+
+								<!-- Estrutura do post adicionado no próprio post -->
+								<div class="modal fade" id="teamBox" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+									<div class="modal-dialog">
+										<div class="modal-content modal-content-team">
+											<div class="modal-content-bar modal-content-sup"></div>
+
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+												<h4 class="modal-title team-nome-new-h3" id="myModalLabel">
+													Nome
+													<br>
+													<span class="team-nome-new-h3-span font-color-red">Sobrenome</span>
+												</h4>
+											</div><!-- fim div.modal-header -->
+
+											<div class="modal-divisor"></div>
+
+											<div class="modal-body">
+												<div class="team-conteudo">
+													<div class="row row-no-margin">
+														<div class="col-sm-6 col-no-padding col-padding-right">
+															<p>
+																<span class="fontED1C24">Ano:</span> Descrição do currículo.
+															</p>
+														</div>
+														<div class="col-sm-6 col-no-padding col-padding-right">
+															<p>
+																<span class="fontED1C24">Ano:</span> Descrição do currículo.
+															</p>
+														</div>
+													</div><!-- fim div.row -->
+													<hr class="background-red">
+												</div><!-- fim div.team-conteudo -->
+											</div><!-- fim div.modal-body -->
+
+											<div class="modal-footer">
+												<p>
+													<a href="#" target="_blank">
+														<img src="img/linkedin_icon.png" alt="linkedin_icon" width="29" height="18" class="alignnone size-full wp-image-44" />
+													</a>
+												</p>
+											</div><!-- fim div.modal-footer -->
+
+											<div class="modal-content-bar modal-content-inf"></div>
+										</div><!-- fim div.modal-content -->
+									</div><!-- fim div.modal-dialog -->
+								</div><!-- fim div.modal -->
 							</div><!-- fim div.col-sm-3 -->
 						</div><!-- fim div.row -->
 					</li><!-- fim li -->
@@ -290,6 +352,38 @@
 							</ul><!-- fim ul.lista-thoreau -->
 						</div><!-- fim div.phase-feature -->
 					</div><!-- fim div.col-sm-3 -->
+				</div><!-- fim div.row -->
+			</section><!-- fim section -->
+
+			<section>
+				<h2 class="sectionTitle">Formulário</h2>
+
+				<div class="row">
+					<div class="col-sm-4">
+						<div>
+							<form action="#" method="post" novalidate="novalidate">
+								<p>
+									<span>
+										<input type="text" name="your-name" value="Campo de Formulário" size="40" aria-required="true" aria-invalid="false">
+									</span>
+								</p>
+								<p>
+									<span>
+										<input type="text" name="Company" value="Outro Campo de Formulário" size="40" aria-invalid="false">
+									</span>
+								</p>
+								<p>
+									<label>Label</label><br>
+									<span>
+										<textarea name="your-message" cols="40" rows="10" aria-invalid="false"></textarea>
+									</span>
+								</p>
+								<p>
+									<input type="submit" value="ENVIAR">
+								</p>
+							</form><!-- fim form -->
+						</div><!-- fim div -->
+					</div><!-- fim div.col-sm-4 -->
 				</div><!-- fim div.row -->
 			</section><!-- fim section -->
 

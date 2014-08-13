@@ -1,0 +1,48 @@
+form {
+	width: 95%;
+	margin-top: 10px;
+
+	p {
+		margin: 0;
+	}
+
+	input {
+		width: 100%;
+		margin-bottom: 20px;
+		border: 0;
+		border-bottom: 1px;
+		border-bottom-style: solid;
+		border-color: gray;
+		border-radius: 0;
+		padding: 6px;
+		font-size: 12px;
+		color: rgb(237,28,36);
+	}
+
+	input[type="submit"] {
+		float: right;
+		width: 30%;
+		border: 0;
+		background: rgb(237,28,36);
+		font-size: 10.196px;
+		color: white;
+	}
+
+	label {
+		margin: 0;
+		padding: 6px;
+		font-size: 12px;
+		color: rgb(237,28,36);
+		font-weight: normal;
+	}
+
+	textarea {
+		height: 80px;
+		width: 100%;
+		margin-bottom: 20px;
+		border: 1px solid gray;
+		border-radius: 0;
+		font-size: 12px;
+		color: rgb(237,28,36);
+	}
+}
